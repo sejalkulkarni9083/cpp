@@ -34,7 +34,7 @@ namespace HR{
                 //Constant Functions are read only functions
                 //you can not manipulate interal data of an object
                 void showDetails()  const {
-                    //firstName="Reena";
+                  
                     cout<<firstName <<"  "<<lastName<<endl;
                 }
             };
@@ -47,7 +47,6 @@ int main(){
     //constant variables can not be changed throughout application exeuction
 
     const int result=56;
-    //result=result+100;    //Not allowed by compiler
 
     Person p1;
     p1.showDetails();
