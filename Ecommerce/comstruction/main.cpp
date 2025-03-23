@@ -8,7 +8,7 @@ using namespace CRM;
 
 int main(){
     customer c;
-    customer theCustomer(2, "sejal", "9876543210", "example@gmail.com", 22);
+    customer theCustomer(2, "sanika", "9876543210", "example@gmail.com", 22);
     
     
     cout<<"customer details of c object"<<endl;
