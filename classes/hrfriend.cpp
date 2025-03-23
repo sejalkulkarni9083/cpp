@@ -1,10 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
- //Pure :Object Oriented Programming language
-// 1. Abstraction
-// 2. Encapsulation
-// 3. Inheritance 
 
     //Encapsulation: Hiding data by defining using private keyword
 class Person{
