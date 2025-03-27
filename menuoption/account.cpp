@@ -77,6 +77,5 @@ namespace Banking{
         {
             cout << "Current Acc Details " << endl;
             cout << "Id: " << id << ", Name: " << name << ", balance: " << balance << endl;
-        }
-    
+        }
 }

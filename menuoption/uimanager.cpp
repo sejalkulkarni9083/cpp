@@ -12,5 +12,5 @@ namespace Banking{
             cout<<" 5. Exit"<<endl;
             cout<<"------------------------------------------------"<<endl;
             cout<<"Enter your option from Menu show above  :";
-        }
+        }
 };

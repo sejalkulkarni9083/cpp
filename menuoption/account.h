@@ -38,6 +38,6 @@ namespace Banking
         
         void display() const;
        
-    };
+    };
 }
 #endif
