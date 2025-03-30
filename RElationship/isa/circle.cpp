@@ -24,5 +24,7 @@ Circle::Circle(){
          cout<<"Radius: "<<radius<<endl;
          cout<<"Thickness: "<<thickness<<endl;
          cout<<"Color: "<<color<<endl;
-    }
- };
+
+
+    }
+};

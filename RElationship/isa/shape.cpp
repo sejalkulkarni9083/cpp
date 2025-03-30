@@ -19,6 +19,6 @@ shape::shape()
         cout<<"Shape attributes: "<<endl;
         cout<<"Thickness: "<<thickness<<endl;
         cout<<"Color: "<<color<<endl;
-    }
+    }
 
 }

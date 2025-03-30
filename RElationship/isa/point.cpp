@@ -26,5 +26,5 @@ namespace Drawing{
     }
     void Point::display() const {
         cout<<"("<<x<<","<<y<<")"<<endl;
-    }
+    }
 };

@@ -13,6 +13,6 @@ namespace Drawing
     Circle(Point pt, int r, int t, string c);
       
     void display();
- };
+    };
 }
- #endif
+#endif

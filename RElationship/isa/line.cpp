@@ -26,5 +26,5 @@ namespace Drawing {
          cout<<"End Point: ("<<endPoint.getX()<<","<<endPoint.getY()<<")"<<endl;
          cout<<"Thickness: "<<thickness<<endl;
          cout<<"Color: "<<color<<endl;
-    }
- };
+    }
+};

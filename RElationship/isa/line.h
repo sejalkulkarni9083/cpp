@@ -18,6 +18,6 @@ class Line: public shape{
     Line(Point pt1, Point pt2, int t, string c);
 
     void display();
- };
+};
 }
 #endif
