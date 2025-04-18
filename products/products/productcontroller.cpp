@@ -39,17 +39,17 @@ ProductController::ProductController(ProductRepository& r, ProductService& s) : 
 	}
 
 	void ProductController::getProductId(int& productId) {
-		std::cout << "Enter Product ID: ";
-		std::cin >> productId;
+		cout << "Enter Product ID: ";
+		cin >> productId;
 	}
 
 	void ProductController::getProductIndex(int& index) {
-		std::cout << "Enter Product Index: ";
-		std::cin >> index;
+		cout << "Enter Product Index: ";
+		cin >> index;
 	}
 
 	void ProductController::getProductTitle(string& title) {
-		std::cout << "Enter Product Title: ";
-		std::cin.ignore();
-		std::getline(std::cin, title);
+		cout << "Enter Product Title: ";
+		cin.ignore();
+		getline(cin, title);
 	}

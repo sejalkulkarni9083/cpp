@@ -3,38 +3,36 @@
 #include<iostream>
 #include<string>
 #include"product.h"
-#include "ProductService.h"
+#include "productservice.h"
+
+using namespace std;
+
+    class ProductRepository {
+
+    private:
+        Product * products[100];
+        int productCount;
+
+    public:
+
+        ProductRepository();
+
+        ~ProductRepository();
 
 
+        void addProduct(Product* product);
 
-	class ProductRepository {
+        Product* getProduct(int index) const;
 
-	private:
+        Product* findProductById(int id) const;
 
+        Product* findProductByTitle(const string& title) const;
 
-		Product* products[100];
-		int productCount;
+        void removeProduct(int index);
 
-	public:
+        void updateProduct(int index, Product* product);
 
-		ProductRepository();
+        void displayProducts() const;
 
-		~ProductRepository();
-
-
-		void addProduct(Product* product);
-
-		Product* getProduct(int index) const;
-
-		Product* findProductById(int id) const;
-
-		Product* findProductByTitle(const std::string& title) const;
-
-		void removeProduct(int index);
-
-		void updateProduct(int index, Product* product);
-
-		void displayProducts() const;
-
-	};
+    };
 #endif

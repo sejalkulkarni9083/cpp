@@ -1,0 +1,8 @@
+﻿  main.cpp
+  productService.cpp
+  repository.cpp
+  product.cpp
+  productcontroller.cpp
+  UImanager.cpp
+  Generating Code...
+  products.vcxproj -> D:\TAP\cpp\products\x64\Debug\products.exe

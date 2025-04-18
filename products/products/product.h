@@ -1,17 +1,18 @@
-#pragma once
 
+#ifndef __PRODUCT_H
+#define __PRODUCT_H
 #include<iostream>
 #include<string>
-#include"repository.h"
-#include"productcontroller.h"
-#include"productservice.h"
 
 
 
+
+
+using namespace std;
 
 	class Product {
 
-
+	
 
 	private:
 
@@ -24,14 +25,12 @@
 		double price;
 
 	public:
-
-
-
-		Product(int id);
+        Product(int id);
 
 		Product(int id, const string& t, const string& d, const string& c, int q, double p);
 
 		int getProductId() const;
+	
 
 		string getTitle() const;
 		void setTitle(const string& t);
@@ -39,7 +38,7 @@
 		string getDescription() const;
 		void setDescription(const string& d);
 
-		string  getCategory();
+		string  getCategory() const;
 		void setCategory(const string& c);
 
 		int getQuantity() const;
@@ -56,3 +55,4 @@
 		void display() const;
 	};
 
+#endif

@@ -1,10 +1,11 @@
-#ifndef __PRODUCTSCONTROLLER_H
-#define __PRODUCTSCONTROLLER_H
+#ifndef __PRODUCTCONTROLLER_H
+#define __PRODUCTCONTROLLER_H
 
 #include <iostream>
 #include <string>
 #include "repository.h"
 #include "productservice.h"
+#include"product.h"
 using namespace std;
 class ProductController{
 	

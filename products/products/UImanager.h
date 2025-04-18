@@ -1,4 +1,4 @@
-#pragma once
+
 #include<iostream>
 #include<string>
 #include"product.h"
@@ -9,41 +9,41 @@
 using namespace std;
 
 
-	class UIManager {
-	public:
+class UIManager {
+public:
 
-		void displayWelcomeMessage();
-		void displayGoodbyeMessage();
-		void displayErrorMessage(const std::string& message);
-		void displaySuccessMessage(const std::string& message);
-
-
-		void displayProductDetails(const Product& product);
-
-		void displayProducts(const ProductRepository& repo);
-
-		void displayProductNotFound();
-
-		void displayProductAdded();
+	void displayWelcomeMessage();
+	void displayGoodbyeMessage();
+	void displayErrorMessage(const std::string& message);
+	void displaySuccessMessage(const std::string& message);
 
 
+	void displayProductDetails(const Product& product);
 
-		void displayMenu();
+	void displayProducts(const ProductRepository& repo);
 
-		void getProductDetails(int& id, string& title, string& description, string& category, int& quantity, double& price);
+	void displayProductNotFound();
 
-		void getDiscountDetails(int& productId, double& discount);
-
-		void getProductId(int& productId);
-
-
-		void getProductIndex(int& index);
-
-
-		void getProductTitle(string& title);
+	void displayProductAdded();
 
 
 
-		void handleUserInput(ProductController& controller);
+	void displayMenu();
 
-	};
+	void getProductDetails(int& id, string& title, string& description, string& category, int& quantity, double& price);
+
+	void getDiscountDetails(int& productId, double& discount);
+
+	void getProductId(int& productId);
+
+
+	void getProductIndex(int& index);
+
+
+	void getProductTitle(string& title);
+
+
+
+	void handleUserInput(ProductController& controller);
+
+};
